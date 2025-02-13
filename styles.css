@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+:root{
+	background-color:rgb(135, 206, 235)
+}
+:first-child{
+	background-color:black;
+	color:white;
+}
+nth-child(2){
+	color:standard;
+}
+:last-child{
+		color:red;
+	}
+ul :first-child, :last-child{
+	background-color:white;
+	}
+	
+}
