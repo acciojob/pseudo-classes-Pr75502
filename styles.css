@@ -2,18 +2,20 @@
 :root{
 	background-color:rgb(135, 206, 235)
 }
-:first-child{
+div :first-child{
 	background-color:black;
 	color:white;
 }
-nth-child(2){
+div :nth-child(2){
 	color:standard;
 }
-:last-child{
+div :last-child{
 		color:red;
 	}
-ul :first-child, :last-child{
-	background-color:white;
+ul{
+	background-color:grey;
 	}
-	
+li:nth-child(odd){
+background-color:white;
 }
+	
